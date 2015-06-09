@@ -5,13 +5,13 @@ function randomString(arrayOfStrings) {
   return arrayOfStrings[index];
 }
 
-var randomFacts = ['Odontophobia is the fear of teeth.',
+var randomFacts = ["Odontophobia is the fear of teeth.",
   'Karoke means "empty orchestra" in Japanese.',
   "Elephants are the only mammals that can't jump."];
 
 
 $(function() {
-  $('button').on('click', function() {
-    $('div').text(randomString(randomFacts));
+  $("button").on("click", function() {
+    $("div").text(randomString(randomFacts));
   });
 });
